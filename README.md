@@ -36,7 +36,6 @@ PORT=5000
 MONGODB_URI=YOUR_DATABASE_URI
 JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRES_IN=7d
-BASE_URL=http://localhost:5000
 ```
 
 ## Running the Application
