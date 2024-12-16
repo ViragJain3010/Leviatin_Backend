@@ -11,7 +11,6 @@ This is the backend for the Invoice Generator application. It is built using Nod
 - [Middleware](#middleware)
 - [Models](#models)
 - [Controllers](#controllers)
-- [Error Handling](#error-handling)
 
 ## Installation
 
