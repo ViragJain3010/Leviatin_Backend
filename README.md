@@ -48,6 +48,11 @@ To start the application in development mode, run:
 npm run dev
 ```
 
+To start the application in production mode, run:
+```sh
+npm start
+```
+
 ## API Endpoints
 
 ### Authentication
@@ -68,17 +73,15 @@ npm run dev
 ## Middleware
 
 - [authMiddleware](src/middleware/auth.middleware.js) - Middleware to authenticate requests using JWT
+- [errorMiddleware](src/middleware/error.middleware.js) - The application uses a custom error handler middleware to handle errors and send appropriate responses.
 
 ## Models
 
-- User - User model
-- Product - Product model
+- [User](src/models/user.model.js) - User model
+- [Product](src/models/product.model.js) - Product model
 
 ## Controllers
 
-- auth.controller.js - Handles authentication-related operations
-- product.controller.js - Handles product-related operations
-- invoice.controller.js - Handles invoice generation
-
-## Error Handling
-The application uses a custom error handler middleware to handle errors and send appropriate responses.
+- [auth.controller.js](src/controllers/auth.controller.js) - Handles authentication-related operations
+- [product.controller.js](src/controllers/product.controller.js) - Handles product-related operations
+- [invoice.controller.js](src/controllers/invoice.controller.js) - Handles invoice generation
